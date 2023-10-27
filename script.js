@@ -14,6 +14,5 @@ const handleColorClick = (event) => {
 }
 
 $colors.forEach(($ele) => {
-    $ele.addEventListener ('click'
-    handleColorClick);
+    $ele.addEventListener ('click', handleColorClick);
 });
